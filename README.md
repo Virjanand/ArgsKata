@@ -44,5 +44,7 @@ have some tests that suitable default values are correctly assigned if flags giv
 # To do
 - [x] args parser with input "-l" -> gives true
 - [x] args parser with input "" -> gives false
-- [ ] refactor name parameter string -> argument
-- [ ] refactor if to tertiary
+- [x] refactor name parameter string -> argument
+- ~~[ ] refactor if to tertiary~~
+- [x] null argument -> false
+- [ ]
