@@ -14,4 +14,10 @@ public class ArgsParserTest {
 		assertEquals(true, parser.parse("-l"));
 	}
 
+	@Test
+	public void noArgument() {
+		Parser parser = new Parser();
+		assertEquals(false, parser.parse(""));
+	}
+
 }

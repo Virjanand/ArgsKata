@@ -3,7 +3,9 @@ package main.java;
 public class Parser {
 
 	public boolean parse(String string) {
-		return true;
+		if (string.equals("-l"))
+			return true;
+		return false;
 	}
 
 }
